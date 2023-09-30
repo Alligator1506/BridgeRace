@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 945378045983841444}
   - component: {fileID: 8047313379981226684}
   - component: {fileID: 730437009027912074}
-  - component: {fileID: 2557013475877428233}
+  - component: {fileID: 2037946143242848335}
   m_Layer: 0
   m_Name: Point
   m_TagString: Untagged
@@ -26,13 +26,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 991482424914797612}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 6.35}
   m_LocalScale: {x: 0.6, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8047313379981226684
 MeshFilter:
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &2557013475877428233
+--- !u!114 &2037946143242848335
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,6 +93,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 991482424914797612}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0946a0f5e813594c970e47d6340fa0a, type: 3}
+  m_Script: {fileID: 11500000, guid: df1aad06f47fdf544838c38bde8cd9bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

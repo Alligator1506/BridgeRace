@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 6035031781039969270}
   - component: {fileID: 2581552671392076166}
   - component: {fileID: 5563340050790765887}
-  - component: {fileID: -6937904788272581281}
+  - component: {fileID: 7977774432719766398}
   m_Layer: 0
   m_Name: Brick
-  m_TagString: Untagged
+  m_TagString: Brick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5674296329136299598}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.59999996, y: 0.29999998, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6035031781039969270
 MeshFilter:
@@ -93,12 +93,20 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5674296329136299598}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-6937904788272581281
+--- !u!114 &7977774432719766398
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,9 +115,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 5674296329136299598}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3b913716e924004385ba149d8b6f19d, type: 3}
+  m_Script: {fileID: 11500000, guid: f5b6c2389fb612c49adf905d20c1e607, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colorData: {fileID: 11400000, guid: 77b888967a2a5ac42aa64c4247501a47, type: 2}
-  meshRenderer: {fileID: 2581552671392076166}
+  poolType: 1
   colorType: 0
+  colorData: {fileID: 11400000, guid: d1a5ba72fc3e2594d8a4c2b2065f32ec, type: 2}
+  renderer: {fileID: 2581552671392076166}
+  stage: {fileID: 0}

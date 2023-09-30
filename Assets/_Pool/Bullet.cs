@@ -6,12 +6,12 @@ public class Bullet : GameUnit
 {
     public Rigidbody rb;
 
-    public void OnInit()
+    public override void OnInit()
     {
         rb.velocity = Vector3.forward * 5f;
     }
 
-    public void OnDespawn()
+    public override void OnDespawn()
     {
         SimplePool.Despawn(this);
     }
@@ -19,7 +19,6 @@ public class Bullet : GameUnit
 
     private void OnTriggerEnter(Collider other)
     {
-        ParticlePool.Play(ParticleType.Hit, transform.position, Quaternion.identity);
         OnDespawn();
     }
 }

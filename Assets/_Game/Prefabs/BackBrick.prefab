@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7148723405396688359}
   - component: {fileID: 7148723405396688358}
   - component: {fileID: 7148723405396688353}
-  - component: {fileID: 578603081081795036}
+  - component: {fileID: 438546207676863119}
   m_Layer: 0
   m_Name: BackBrick
   m_TagString: Untagged
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &578603081081795036
+--- !u!114 &438546207676863119
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,8 +93,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7148723405396688355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44317fd368ec4a14da7470c0ad52d1b0, type: 3}
+  m_Script: {fileID: 11500000, guid: 35ed3dc182cfd5c42a2236f54d5a6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colorData: {fileID: 11400000, guid: 77b888967a2a5ac42aa64c4247501a47, type: 2}
-  meshRenderer: {fileID: 7148723405396688353}
+  poolType: 0
+  colorType: 0
+  colorData: {fileID: 11400000, guid: d1a5ba72fc3e2594d8a4c2b2065f32ec, type: 2}
+  renderer: {fileID: 7148723405396688353}
